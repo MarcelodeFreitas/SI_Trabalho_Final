@@ -1,5 +1,7 @@
 package agents;
 
-public class Estacao {
+public class Estacao  extends Agent{
+	
+	
 
 }
