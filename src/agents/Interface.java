@@ -34,7 +34,7 @@ public class Interface extends Agent{
 	protected void setup() {
 		super.setup();
 		this.addBehaviour(new Utilizador_Request_Receiver());
-		//this.addBehaviour(new Request_Stations());
+		//this.addBehaviour(new Estacao_Info_Receiver());
 	}
 
 	protected void takeDown() {
@@ -85,7 +85,7 @@ public class Interface extends Agent{
 			}
 		}
 	}
-	
+	/*
 	private class Estacao_Info_Receiver extends CyclicBehaviour {
 		private int x_e, y_e;
 		private AID id_estacao;
@@ -136,6 +136,6 @@ public class Interface extends Agent{
 					
 			}
 		}
-	}
+	}*/
 
 }
