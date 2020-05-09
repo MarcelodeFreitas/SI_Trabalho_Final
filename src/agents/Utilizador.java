@@ -59,7 +59,7 @@ public class Utilizador extends Agent{
 	
 	protected void takeDown() {
 		super.takeDown();
-		System.out.println("Ending Utilizador");
+		System.out.println("Ending Utilizador*");
 		end = (Calendar.getInstance()).getTimeInMillis();
 		start = end - start;
 		System.out.println("Riding time:" + start);
